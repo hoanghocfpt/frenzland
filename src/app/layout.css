@@ -1,0 +1,456 @@
+
+header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+header {
+  padding-top: 119px;
+}
+
+
+header .nav_sub{
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 5%;
+}
+
+header .nav_sub{
+  background-color: #ffffff;
+}
+header .nav_sub .noti{
+  flex: 1;
+  overflow-x: hidden;
+  margin: 0 2%;
+}
+header .nav_sub .noti .text{
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  animation: scroll-left 60s linear infinite;
+  white-space: nowrap;
+}
+header .nav_sub .noti .text img{
+  width: 50px;
+}
+header .nav_sub .noti .text span{
+  flex-shrink: 0;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: "Menco W00 Black",sans-serif;
+}
+
+@keyframes scroll-left {
+  0% {
+      transform: translateX(0%);
+  }
+
+  100% {
+      transform: translateX(-7800px);
+  }
+}
+header .nav_sub .noti span{
+  display: flex;
+  align-items: center;
+  color: #00C2FF;
+  font-size: 22px;
+  font-weight: 800;
+}
+header .nav_sub .right{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .nav_sub .right .languages{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
+header .nav_sub .right .languages svg{
+  width: 24px;
+  color: #000;
+}
+header .nav_sub .right .signin a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  font-size: 14px;
+}
+header .nav_sub .right .btn{
+  border: 2px solid #FF7A00;
+  border-radius: 999px;
+}
+header .nav_sub .right .btn span{
+  cursor: pointer;
+  font-size: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 12px 18px;
+  line-height: 1;
+  color: #333;
+  font-weight: 800;
+  
+}
+header nav.main{
+  position: fixed;
+  top: 69px;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: #FF7A00;
+}
+header nav.main .navbar{
+  display: none;
+}
+header nav.main .close{
+  display: none;
+}
+header nav.main ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+header nav.main ul img{
+  display: none;
+}
+header nav.main ul li{
+  list-style: none;
+
+}
+header nav.main ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+footer{
+  z-index: 1;
+  display: flex;
+  padding:0 0 30px 0;
+  background-color: #00C2FF;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+:root {
+  --twidth: calc(100vw / 1);
+  --theight: 200px;
+}
+footer .shape{
+  border-bottom:var(--theight) solid #00C2FF;
+  border-left:  var(--twidth)solid transparent;
+  position: absolute;
+  top: -200px;
+}
+/* 
+footer .logo_frenzland{
+  width: fit-content;
+  margin: 10px 0;
+} */
+footer .btn_contact {
+  margin-bottom: 50px;
+}
+footer .btn_contact a{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #fff;
+  padding: 14px 24px;
+  background-color: #00a9dc;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  transition: all 0.1s ease-out;
+}
+
+footer .btn_contact a span{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  padding-right: 5px;
+}
+footer .btn_contact a svg{
+  width: 10px;
+  height: 10px;
+  fill: #fff;
+  transition: all 0.1s ease-in-out;
+}
+/* hover */
+footer .btn_contact a:hover{
+  background-color: #fff;
+  color: #00C2FF;
+}
+footer .btn_contact a:hover svg{
+  fill: #00C2FF;
+  transform: translateX(5px);
+}
+footer .btn_contact .dot{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+footer .btn_contact .dot1::before{
+  content: "";
+  background-color: #fff;
+  border-radius: 50%;
+ 
+  display: block;
+  height: 5px;
+  width: 5px;
+  top: 5px;
+  left: 5px;
+  overflow: hidden;
+  position: absolute; 
+}
+footer .btn_contact .dot1::after{
+  content: "";
+  background-color: #fff;
+  border-radius: 50%;
+ 
+  display: block;
+  height: 5px;
+  width: 5px;
+  bottom: 5px;
+  left: 5px;
+  overflow: hidden;
+  position: absolute; 
+}
+footer .btn_contact .dot2::before{
+  content: "";
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  height: 5px;
+  width: 5px;
+  top: 5px;
+  right: 5px;
+  overflow: hidden;
+  position: absolute; 
+}
+footer .btn_contact .dot2::after{
+  content: "";
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  height: 5px;
+  width: 5px;
+  bottom: 5px;
+  right: 5px;
+  overflow: hidden;
+  position: absolute; 
+}
+footer .btn_contact a:hover .dot1::before{
+  background-color: #00C2FF;
+}
+footer .btn_contact a:hover .dot1::after{
+  background-color: #00C2FF;
+}
+footer .btn_contact a:hover .dot2::before{
+  background-color: #00C2FF;
+}
+footer .btn_contact a:hover .dot2::after{
+  background-color: #00C2FF;
+}
+
+
+
+
+footer .social_rating{
+  display: flex;
+  text-align: center;
+  gap: 30px;
+}
+footer .social_rating .icon_social span{
+  
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  color: #fff;
+
+}
+footer .social_rating .icon_social .list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 20px 0;
+}
+footer .social_rating .icon_social .list .item{
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  padding: 6px;
+  display: flex;
+}
+footer .social_rating .icon_social .list .item svg{
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+}
+footer .social_rating .rating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .social_rating .rating img{
+  height: 100px;
+}
+footer .link_footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+footer .link_footer ul{
+  padding: 0 20px;
+  display: flex;
+  color: #Fff;
+  margin-top: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+footer .link_footer ul li{
+  list-style: none;
+}
+footer .link_footer ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+footer .link_footer .copyright{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+footer .link_footer .powered{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1020px){
+  header {
+      padding-top: 110px;
+  }
+  header .nav_sub .noti .text span{
+      font-size: 22px;
+      font-weight: 800;
+  }
+  header .nav_sub .noti .text img{
+      width: 40px;
+  }
+  header nav.main{
+      top: 62px;
+  }
+}
+
+
+@media only screen and (max-width: 640px){
+  header {
+      padding-top:12px;
+  }
+  header .nav_sub .right .languages {
+      display: none;
+  }
+  header .nav_sub .noti .text span{
+      font-size:16px;
+      font-weight: 800;
+  }
+  header .nav_sub .noti .text img{
+      width: 30px;
+  }
+  header .nav_sub .noti .text{
+      display: flex;
+      align-items: center;
+      animation: scroll-left 80s linear infinite;
+  }
+  header nav.main{
+      position: relative;
+      width: 100%;
+      background-color: transparent;
+      padding: 0 5%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+  }
+  header nav.main.active{
+      background-color: #FF7A00;
+      height: calc(100vh - 62px);
+      top: 62px;
+      z-index: 999;
+      justify-content: center;
+      position: fixed;
+  }
+  header nav.main .navbar{
+      position: fixed;
+      top: 68px;
+      border: 1.3px solid #000;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* position: absolute;
+      left: 10px; */
+  }
+  header nav.main .navbar svg{
+      width: 24px;
+      height: 24px;
+  }
+  header nav.main.active .close{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+  }
+  header nav.main .close svg{
+      width: 28px;
+      color: #fff;
+      height: 28px;
+  }
+  header nav.main.active .navbar{
+      display: none;
+  }
+  
+  header nav.main ul{
+      display: none;
+  }
+  header nav.main.active ul{
+      display: flex;
+      flex-direction: column;
+  }
+  header nav.main.active ul img{
+      display: block;
+      position: absolute;
+      bottom: -20px;
+      height: 200px;
+  }
+}
