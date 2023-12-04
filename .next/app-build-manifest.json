@@ -6,6 +6,18 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/news/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/news/page.css",
+      "static/chunks/app/news/page.js"
+    ],
+    "/marketplace/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/marketplace/page.css",
+      "static/chunks/app/marketplace/page.js"
+    ],
     "/home/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -18,11 +30,10 @@
       "static/css/app/characters/page.css",
       "static/chunks/app/characters/page.js"
     ],
-    "/news/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/news/page.css",
-      "static/chunks/app/news/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }
