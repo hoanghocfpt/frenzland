@@ -2,6 +2,5 @@
   "/news/page": "app/news/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/marketplace/page": "app/marketplace/page.js",
-  "/home/page": "app/home/page.js",
-  "/characters/page": "app/characters/page.js"
+  "/home/page": "app/home/page.js"
 }

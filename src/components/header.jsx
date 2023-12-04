@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import React from 'react';
+import Popup from './popup/page';
 
 const Header = () => {
     return (
         <header>
+            <Popup></Popup>
             <div className="nav_sub">
                 <div className="logo_text logo_frenzland">Frenzland</div>
                 <div className="noti">
