@@ -55,7 +55,7 @@ const signUp = () => {
                         </label>
                     </div>
                     <span>
-                        I agree with Bobby's{" "}
+                        I agree with Bobby s{" "}
                         <a href="javascript:void(0)">Terms and Conditions</a> and that my
                         personal data will be processed pursuant to the{" "}
                         <a href="javascript:void(0)">Privacy Policy</a>.

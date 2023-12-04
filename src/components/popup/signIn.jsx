@@ -44,7 +44,7 @@ const signIn = () => {
                     <img src="./images/asset/hashpack.webp" alt="" />
                 </div>
                 <div className="link">
-                    <span>Don\'t have an account?</span>
+                    <span>Dont have an account?</span>
                     <a href="javascript:void(0)" id="signup">
                     Sign up
                     </a>
