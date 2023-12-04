@@ -78,7 +78,7 @@ const Header = () => {
                     <Link href="/home">Home</Link>
                 </li>
                 <li>
-                    <Link href="javascript:void(0)">Marketplace</Link>
+                    <Link href="/marketplace">Marketplace</Link>
                 </li>
                 <li>
                     <Link href="javascript:void(0)">Map</Link>

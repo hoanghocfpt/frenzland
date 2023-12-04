@@ -14,6 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link href="https://db.onlinewebfonts.com/c/7c1c241f20bff52b24056c04cd20703c?family=Menco+W00+Black" rel="stylesheet"></link>
       <body className={catamaran.className}>
       <div className='container'>
         <Header/>

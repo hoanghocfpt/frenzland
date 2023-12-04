@@ -1,9 +1,11 @@
 /* @import url(https://db.onlinewebfonts.com/c/7c1c241f20bff52b24056c04cd20703c?family=Menco+W00+Black); */
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 body{
   background-color: #fff;
   overflow-x: hidden;
