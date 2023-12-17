@@ -20,7 +20,7 @@ const HomePage = () => {
                     <a href="javascript:void(0)" className="btn_cta">
                     <span>
                         <span>Lock Your Land!</span>
-                        <span>Dec 04, 2023</span>
+       
                     </span>
                     <svg
                         viewBox="0 0 24 24"

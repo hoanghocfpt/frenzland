@@ -80,7 +80,7 @@ const Header = () => {
                     <Link href="/home">Home</Link>
                 </li>
                 <li>
-                    <Link href="/marketplace">Marketplace</Link>
+                    <Link href="">Marketplace</Link>
                 </li>
                 <li>
                     <Link href="javascript:void(0)">Map</Link>
