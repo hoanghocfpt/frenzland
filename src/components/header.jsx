@@ -1,8 +1,8 @@
 'use client'
 import Link from 'next/link';
 import React, { useState } from 'react';
-import SignUp from './popup/SignUp';
-import SignIn from './popup/SignIn';
+import SignUp from './popup/signUp';
+import SignIn from './popup/signIn';
 
 const Header = () => {
     const [isSignUp, setSignUp] = useState(false);
