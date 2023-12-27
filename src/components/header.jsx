@@ -5,9 +5,16 @@ import SignUp from './popup/signUp';
 import SignIn from './popup/signIn';
 
 const Header = () => {
+    const [navbarOpen, setNavbarOpen] = useState(false); // Mở rộng menu mobile
     const [isSignUp, setSignUp] = useState(false);
     const [isSignIn, setSignIn] = useState(false);
 
+    const handleNavbarOpen = () => {
+        setNavbarOpen(true);
+    }
+    const handleNavbarClose = () => {
+        setNavbarOpen(false);
+    }
     const handleLoginClick = () => {
         setSignIn(true); // Mở popup đăng nhập
     };
@@ -67,8 +74,8 @@ const Header = () => {
                     </div>
                     </div>
                 </div>
-                <nav className="main">
-                    <div className="close">
+                <nav className={`main ${navbarOpen ? 'active' : ''}`}>
+                    <div className="close" onClick={handleNavbarClose}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -84,7 +91,7 @@ const Header = () => {
                         />
                     </svg>
                     </div>
-                    <div className="navbar">
+                    <div className="navbar" onClick={handleNavbarOpen}>
                     <svg
                         width={24}
                         xmlns="http://www.w3.org/2000/svg"

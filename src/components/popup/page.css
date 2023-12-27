@@ -61,6 +61,7 @@
 }
 .style_popup .check{
     display: flex;
+    padding: 0 2%;
 }
 .style_popup .check .container_check{
     position: relative;
@@ -224,14 +225,28 @@
        width: 93.5%;
        padding: 24px 3%;
     }
+    .popup .style_popup p{
+        margin-bottom: 20px;
+    }
     .style_popup .popup_container{
         margin: 0 auto;
     }
     .popup .style_popup .popup_container form{
         width: 100%;
     }
-    .popup .style_popup .popup_container form div {
+    .popup .style_popup .popup_container form div.inputText{
         width: 100%;
         max-width: 500px;
+    }
+    .style_popup .popup_container form div {
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 500px;
+    }
+    .style_popup .check{
+        justify-content: flex-start;
+    }
+    .style_popup .check span{
+        text-align: left;
     }
 }

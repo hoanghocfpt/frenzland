@@ -30,7 +30,7 @@ const SignUp = ({ isActive, onCloseClick, onSignInClick }) => {
                     <div className="inputText">
                         <input type="text" name="email" id="email" placeholder="email" />
                     </div>
-                    <div className="inputPassword">
+                    <div className="inputPassword inputText">
                         <input
                             type="password"
                             name="password"
