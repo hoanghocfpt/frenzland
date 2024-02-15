@@ -60,9 +60,9 @@ const SignUp = ({ isActive, onCloseClick, onSignInClick }) => {
                         </div>
                         <span>
                             I agree with Bobby s{" "}
-                            <a href="javascript:void(0)">Terms and Conditions</a> and that my
+                            <a href="#">Terms and Conditions</a> and that my
                             personal data will be processed pursuant to the{" "}
-                            <a href="javascript:void(0)">Privacy Policy</a>.
+                            <a href="#">Privacy Policy</a>.
                         </span>
                     </div>
                     <input type="submit" defaultValue="Sign up" name="signup" />
@@ -74,7 +74,7 @@ const SignUp = ({ isActive, onCloseClick, onSignInClick }) => {
                 </div>
                 <div className="link">
                     <span>Do you have an account?</span>
-                    <a href="javascript:void(0)" onClick={onSignInClick} className="login">
+                    <a href="#" onClick={onSignInClick} className="login">
                     Log in
                     </a>
                 </div>

@@ -17,9 +17,9 @@ const HomePage = () => {
                     blue creature and his skills. Bobby brand has a lot to offer you, from
                     Merchandise, Toys, Games, Contents to Digital Collectibles.
                     </p>
-                    <a href="javascript:void(0)" className="btn_cta">
+                    <a href="https://discord.com/invite/hZnTwenQtp" target='_blank' className="btn_cta">
                     <span>
-                        <span>Lock Your Land!</span>
+                        <span>Meet Bobby</span>
        
                     </span>
                     <svg
@@ -61,7 +61,7 @@ const HomePage = () => {
                         <img src="images/minigame2.jpg" alt="" />
                     </div>
                     <div className="text">
-                        <div className="title">Bobby World Coming Soon</div>
+                        <div className="title">Bobby World - 9632-4821-8717</div>
                         <div className="des">Find Bobby in Fortnite - FFA</div>
                     </div>
                     </div>
@@ -72,7 +72,7 @@ const HomePage = () => {
                         <img src="images/minigame_comingsoon.png" alt="" />
                     </div>
                     <div className="text">
-                        <div className="title">Comming Soon</div>
+                        <div className="title">Coming Soon</div>
                         <div className="des">Something interesting is waiting for you</div>
                     </div>
                     </div>
@@ -83,7 +83,7 @@ const HomePage = () => {
                         <img src="images/minigame_comingsoon.png" alt="" />
                     </div>
                     <div className="text">
-                        <div className="title">Comming Soon</div>
+                        <div className="title">Coming Soon</div>
                         <div className="des">Something interesting is waiting for you</div>
                     </div>
                     </div>
@@ -164,7 +164,7 @@ const HomePage = () => {
                         <img src="./images/news4.webp" alt="The 000 Unique Bobby&apos;s" />
                     </div>
                     <div className="content">
-                        <span className="date">11.20.2023</span>
+                        <span className="date">Coming soon</span>
                         <div className="title_post">The 10,000 Unique Bobby&apos;s</div>
                         {/* <a href="javascript:void(0)"><span>Read more <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" mirror-in-rtl="true" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10.25 22.987l7.99-9c.51-.57.76-1.28.76-1.99s-.25-1.42-.74-1.98c-.01 0-.01-.01-.01-.01l-.02-.02-7.98-8.98c-1.1-1.24-3.002-1.35-4.242-.25-1.24 1.1-1.35 3-.25 4.23l6.23 7.01-6.23 7.01c-1.1 1.24-.99 3.13.25 4.24 1.24 1.1 3.13.98 4.24-.26z"></path> </g></svg></span></a> */}
                     </div>
@@ -242,9 +242,9 @@ const HomePage = () => {
                     </div>
                     <div className="content">
                     {/* <div class="title">Land</div> */}
-                    <p className="des">December 04, 2023</p>
-                    <a href="javascript:void(0)" className="btn">
-                        Lock your land
+                    <p className="des">Unleash your creativity on the virtual stage Whether you’re a singer, comedian, or storyteller The concert metaverse is your place to shine!</p>
+                    <a href="https://discord.com/invite/hZnTwenQtp" target='_blank' className="btn">
+                        Find out more
                     </a>
                     </div>
                 </div>
