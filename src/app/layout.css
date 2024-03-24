@@ -11,6 +11,11 @@ header {
   padding-top: 119px;
 }
 
+header .icon_reward a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 header .nav_sub{
   position: fixed;
