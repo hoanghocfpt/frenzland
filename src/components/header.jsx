@@ -69,7 +69,7 @@ const Header = () => {
                     </div>
                     </div>
                     <div className="right">
-                    <div className='icon_reward'>
+                    {/* <div className='icon_reward'>
                         <a href='https://reward.frenzland.com/' target='_plank'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +121,7 @@ const Header = () => {
                         </svg>
 
                         </a>
-                    </div>
+                    </div> */}
                     <div className="btn login" onClick={handleLoginClick} id="login">
                         <span>Login</span>
                     </div>
